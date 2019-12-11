@@ -1,0 +1,15 @@
+
+DiscountDelegateDemo/.vs/DiscountDelegateDemo/v16/.suo
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+*.json
+*.dll
+*.exe
+*.pdb
+*.cache
+*.props
+*.targets
+DiscountDelegateDemo/DiscountDelegateDemo/obj/Debug/netcoreapp3.0/DiscountDelegateDemo.AssemblyInfo.cs
+DiscountDelegateDemo/DiscountDelegateDemo/obj/Debug/netcoreapp3.0/DiscountDelegateDemo.csproj.FileListAbsolute.txt
