@@ -22,3 +22,8 @@ DemoBankEvent/.vs/DemoBankEvent/v16/.suo
 DemoBankEvent/DemoBankEvent/obj/Debug/netcoreapp3.0/DemoBankEvent.AssemblyInfo.cs
 DemoBankEvent/DemoBankEvent/obj/Debug/netcoreapp3.0/DemoBankEvent.csproj.FileListAbsolute.txt
 DemoBankEvent/.vs/DemoBankEvent/DesignTimeBuild/.dtbcache
+WordsOfWisdom/.vs/WordsOfWisdom/v16/.suo
+*.config
+*.resources
+WordsOfWisdom/WordsOfWisdom/obj/Debug/WordsOfWisdom.csproj.FileListAbsolute.txt
+WordsOfWisdom/WordsOfWisdom/Properties/AssemblyInfo.cs
