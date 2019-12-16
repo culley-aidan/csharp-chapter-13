@@ -29,23 +29,36 @@
         private void InitializeComponent()
         {
             this.lblQuoteOne = new System.Windows.Forms.Label();
+            this.lblQuoteTwo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblQuoteOne
             // 
             this.lblQuoteOne.AutoSize = true;
-            this.lblQuoteOne.Location = new System.Drawing.Point(13, 13);
+            this.lblQuoteOne.Location = new System.Drawing.Point(12, 9);
             this.lblQuoteOne.Name = "lblQuoteOne";
             this.lblQuoteOne.Size = new System.Drawing.Size(271, 26);
             this.lblQuoteOne.TabIndex = 0;
             this.lblQuoteOne.Text = "War is peace. Freedom is slavery. Ignorance is strength.\r\n- George Orwell\r\n";
             this.lblQuoteOne.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // lblQuoteTwo
+            // 
+            this.lblQuoteTwo.AutoSize = true;
+            this.lblQuoteTwo.Location = new System.Drawing.Point(12, 44);
+            this.lblQuoteTwo.Name = "lblQuoteTwo";
+            this.lblQuoteTwo.Size = new System.Drawing.Size(503, 26);
+            this.lblQuoteTwo.TabIndex = 1;
+            this.lblQuoteTwo.Text = "The most effective way to destroy people is to deny and obliterate their own unde" +
+    "rstanding of their history.\r\n- George Orwell\r\n";
+            this.lblQuoteTwo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // WordsOfWisdom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblQuoteTwo);
             this.Controls.Add(this.lblQuoteOne);
             this.Name = "WordsOfWisdom";
             this.Text = "WordsOfWisdom";
@@ -57,6 +70,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblQuoteOne;
+        private System.Windows.Forms.Label lblQuoteTwo;
     }
 }
 
