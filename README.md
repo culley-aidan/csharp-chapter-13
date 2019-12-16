@@ -7,6 +7,6 @@ C# Programming Chapter 13
 - [X] - Guided - DemoBankEvent
 - [X] - 1 - WordsOfWisdom
 - [X] - 2 - RecentlyVisitedSites
-- [ ] - 5 - FlorencesFloralCreations
+- [X] - 5 - FlorencesFloralCreations
 - [ ] - 6 - GuessANumber
 - [ ] - ~~7 - PickLarger~~
