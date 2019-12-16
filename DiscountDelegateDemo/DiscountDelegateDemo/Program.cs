@@ -14,7 +14,14 @@ namespace DiscountDelegateDemo
             secondDel = new DiscountDelegate(PreferredDiscount);
             Console.Write("Enter the amount of sale ");
             saleAmount = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Enter S for standard discount, " + );
+            Console.Write("Enter S for standard discount, or P for preferred discount ");
+            code = Convert.ToChar(Console.ReadLine());
+            if (code == 'S') {
+                firstDel(ref saleAmount);
+            } else {
+                secondDel(ref saleAmount);
+            }
+            Console.WriteLine("New sale amount is {0}", saleAmount.ToString("C2"));
         }
 
         public static void StandardDiscount(ref double saleAmount)
