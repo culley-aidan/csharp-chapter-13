@@ -2,7 +2,7 @@
 C# Programming Chapter 13
 
 ## TODO 
-- [ ] - Guided - DiscountDelegateDemo
+- [X] - Guided - DiscountDelegateDemo
 - [ ] - Guided - DiscountDelegateDemo2
 - [ ] - Guided - DemoBankEvent
 - [ ] - 1 - WordsOfWisdom
