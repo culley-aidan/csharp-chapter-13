@@ -9,4 +9,4 @@ C# Programming Chapter 13
 - [ ] - 2 - RecentlyVisitedSites
 - [ ] - 5 - FlorencesFloralCreations
 - [ ] - 6 - GuessANumber
-- [ ] - 7 - PickLarger
+- [ ] - ~~7 - PickLarger~~
