@@ -5,7 +5,7 @@ C# Programming Chapter 13
 - [X] - Guided - DiscountDelegateDemo
 - [X] - Guided - DiscountDelegateDemo2
 - [X] - Guided - DemoBankEvent
-- [ ] - 1 - WordsOfWisdom
+- [X] - 1 - WordsOfWisdom
 - [ ] - 2 - RecentlyVisitedSites
 - [ ] - 5 - FlorencesFloralCreations
 - [ ] - 6 - GuessANumber
