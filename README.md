@@ -8,5 +8,5 @@ C# Programming Chapter 13
 - [X] - 1 - WordsOfWisdom
 - [X] - 2 - RecentlyVisitedSites
 - [X] - 5 - FlorencesFloralCreations
-- [ ] - 6 - GuessANumber
+- [X] - 6 - GuessANumber
 - [ ] - ~~7 - PickLarger~~
