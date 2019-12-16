@@ -31,6 +31,7 @@
             this.lblQuoteOne = new System.Windows.Forms.Label();
             this.lblQuoteTwo = new System.Windows.Forms.Label();
             this.lblQuoteThree = new System.Windows.Forms.Label();
+            this.lblQuoteFour = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblQuoteOne
@@ -65,11 +66,22 @@
     "it.\r\n- Mark Twain\r\n";
             this.lblQuoteThree.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // lblQuoteFour
+            // 
+            this.lblQuoteFour.AutoSize = true;
+            this.lblQuoteFour.Location = new System.Drawing.Point(13, 104);
+            this.lblQuoteFour.Name = "lblQuoteFour";
+            this.lblQuoteFour.Size = new System.Drawing.Size(274, 26);
+            this.lblQuoteFour.TabIndex = 3;
+            this.lblQuoteFour.Text = "If you tell the truth, you don\'t have to remember anything.\r\n- Mark Twain\r\n";
+            this.lblQuoteFour.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // WordsOfWisdom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblQuoteFour);
             this.Controls.Add(this.lblQuoteThree);
             this.Controls.Add(this.lblQuoteTwo);
             this.Controls.Add(this.lblQuoteOne);
@@ -85,6 +97,7 @@
         private System.Windows.Forms.Label lblQuoteOne;
         private System.Windows.Forms.Label lblQuoteTwo;
         private System.Windows.Forms.Label lblQuoteThree;
+        private System.Windows.Forms.Label lblQuoteFour;
     }
 }
 
