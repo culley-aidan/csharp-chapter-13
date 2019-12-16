@@ -30,6 +30,7 @@
         {
             this.lblQuoteOne = new System.Windows.Forms.Label();
             this.lblQuoteTwo = new System.Windows.Forms.Label();
+            this.lblQuoteThree = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblQuoteOne
@@ -53,11 +54,23 @@
     "rstanding of their history.\r\n- George Orwell\r\n";
             this.lblQuoteTwo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // lblQuoteThree
+            // 
+            this.lblQuoteThree.AutoSize = true;
+            this.lblQuoteThree.Location = new System.Drawing.Point(13, 74);
+            this.lblQuoteThree.Name = "lblQuoteThree";
+            this.lblQuoteThree.Size = new System.Drawing.Size(401, 26);
+            this.lblQuoteThree.TabIndex = 2;
+            this.lblQuoteThree.Text = "Censorship is telling a man he can\'t have a steak just because a baby can\'t chew " +
+    "it.\r\n- Mark Twain\r\n";
+            this.lblQuoteThree.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // WordsOfWisdom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblQuoteThree);
             this.Controls.Add(this.lblQuoteTwo);
             this.Controls.Add(this.lblQuoteOne);
             this.Name = "WordsOfWisdom";
@@ -71,6 +84,7 @@
 
         private System.Windows.Forms.Label lblQuoteOne;
         private System.Windows.Forms.Label lblQuoteTwo;
+        private System.Windows.Forms.Label lblQuoteThree;
     }
 }
 
